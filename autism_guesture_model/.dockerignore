@@ -1,0 +1,50 @@
+# ── Python artifacts ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Training data (not needed at inference time) ──────────────────────────────
+data/
+X.npy
+y.npy
+
+# ── Jupyter / IDE artifacts ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+.idea/
+.vscode/
+*.code-workspace
+
+# ── OS junk ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+
+# ── Git ───────────────────────────────────────────────────────────────────────
+.git/
+.gitignore
+.gitattributes
+
+# ── Temp uploads (runtime dir — created fresh by container) ──────────────────
+uploads/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Docker files themselves ───────────────────────────────────────────────────
+Dockerfile
+docker-compose.yml
+.dockerignore
